@@ -1,124 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>A3-Group-39-Git</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link type="text/css" rel="stylesheet" href="style.css">
-<script type="text/javascript" src="java.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-</head>
+﻿{% extends "_layout.html" %}
+{% block title %}Home page{% endblock %}
+{% block content %}
+<a href="login">Login</a>
+<p>
 
-<body>
+</p>
+<a href="create">Add new Show</a>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="Plans-and-Progress.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Plans and Progress</a>
-    <a href="Project-Description.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Project Description</a>
-    <a href="Skills-and-jobs.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Skills and jobs</a>
-	<a href="Group-Reflection.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Group Reflection</a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="Plans-and-Progress.html" class="w3-bar-item w3-button w3-padding-large">Plans and Progress</a>
-    <a href="Project-Description.html" class="w3-bar-item w3-button w3-padding-large">Project Description</a>
-    <a href="Skills-and-jobs.html" class="w3-bar-item w3-button w3-padding-large">Skills and jobs</a>
-	<a href="Group-Reflection.html" class="w3-bar-item w3-button w3-padding-large">Group Reflection</a>
-  </div>
-</div>
-
-<!-- Header -->
-<header class="w3-container w3-red w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">Internet Explorers 404</h1>
-  <p class="w3-xlarge">A3-Group-39</p>
-  <a href="https://github.com/ahmkhalaf/Group-39-A3" target="_blank">
-  <button  class="w3-button w3-black w3-padding-large w3-large w3-margin-top ">View On GitHub</button>
-  </a>
-</header>
-
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Personal Information</h1>
-      <h5 class="w3-padding-32">Name: Nicholas Kyriakakis
-		<br></br>
-		Interests: Interested in Finance and in relation to how IT (Information Technology) can be efficient in smoothing those systems
-		<br></br>
-		Student number: s3814684
-		<br></br>
-		Background: Australian, Greek background with the ability to speak English and a beginner’s level of Japanese and Chinese.
-		<br></br>
-		IT Experience: A small amount of IT experience from an early age during primary school programs and a father who specializes in It, however outside of that personally zero experience, hoping that this course will shed some needed light on the topic and give ways to learn new skillsets.
-		</h5>
-
-		<h5 class="w3-padding-32">Name: Ahmed Khalaf
-		<br></br>
-		Interests: Interested in the field of software engineering
-		<br></br>
-		Student number: s3967496
-		<br></br>
-		Background: Born and raised in Saudi Arabia, but from Palestine, then moved to New Zealand and currently reside in Australia with the ability to speak Arabic and English.
-		<br></br>
-		IT Experience: includes learning to program from an early age using the language Scratch, primary focus on coding and creating programs from the ground up. I proceeded to learn later in life a wide array of programming languages during computer science courses such as; Python, HTML (HyperText Markup Language), CSS (Cascading Style Sheets), Java and SWL databases. Also use to using a 3D (3 Dimensional) Printer to create a robotic body.
-		</h5>
-
-	</div>
-  </div>
-</div>
-
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-
-    <div class="w3-twothird">
-      <h1>Group Processes</h1>
-      <h5 class="w3-padding-32">The group itself did not function as a group for assignment 2, with lack of communication between group members, no meetings recorded, and general slackness.<br></br> Changes towards assignment 3; Promoting a group leader to guide everyone in what tasks need to be outlined, more direct communication on Microsoft teams, holding team meetings to understand where people are in reference to the planned outcome and to have an open dialogue between members.  </h5>
-
-	  <h1>Career Plans</h1>
-      <h5 class="w3-padding-32">Nicholas: Financial Advisor
-		<br></br>
-		The career path for Nicholas has not changed since assignment 1 and 2.
-		<br></br>
-		Ahmed: Software Engineer
-		<br></br>
-		The career path for Ahmed has not changed since assignment 1 and 2.
-		<br></br>
-		A comparison between these two jobs is as follows:
-		<br></br>
-		A financial advisor specializes in giving credible financial advice to a client in various areas, for example; Superannuation towards retirement. They help the client set specific financial plans outlined in what the desired goals and outcomes of a client is to help achieve those goals or realign the goals to be more reasonable by putting in place certain strategies for the outcomes.
-
-		<br></br>
-
-		A software engineer specializes in the design and creation of computer systems and applications to achieve an outcome to solve problems. By putting forward their knowledge in various areas of programming and development they strive to create solutions to real world problems given to them by their clients, employers, or their own curiosity a very hands-on, deep-thinking role.
-
-		<br></br>
-
-		The similarities between the two careers listed are the fact that they both must solve real-world problems for someone by applying their expertise in an area to create a finished product to help with everyday life/financial life. They both use problem solving skills and strategies to form the basis of their profession.
-
-		<br></br>
-
-		The differences between these positions are that the field they specialize in has some crossover in terms of using computer programs, but the fields of finance and software engineering are not exactly overlapping. Software engineers do at times involve themselves with some form of financial knowledge for a budget of a product but not the strategic length or plan in the future as they focus on development for products.
-
-		<br></br>
-
-		The career paths themselves are similar in terms of needing to achieve an education to end up at their desired goals and using this knowledge of problem solving to get the end, however they both take different routes from that point, to a more information technology focused route from a financial focused route.
-	  </h5>
-	</div>
-  </div>
-</div>
-
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Internet Explorers 404</h1>
-</div>
-
-</body>
-</html>
+<table class="table">
+    {% for row in user %}
+    <tr>
+        <td><a href="student?idusers={{ row.idShows }}">{{ row.idShows }}</a></td>
+        <td>{{ row.ShowName }}</td>
+        <td>{{ row.ShowDescription }}</td>
+        <td><a href="delete?idusers={{ row.idShows }}">delete</a></td>
+        <td><a href="update?idusers={{ row.idShows }}">update</a></td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
